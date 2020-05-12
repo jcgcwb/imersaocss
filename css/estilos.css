@@ -41,18 +41,11 @@ a:hover {
 }
 
 .bg-image {
-    /* The image used */
-    background-image: url('https://wallup.net/wp-content/uploads/2017/11/22/342160-programming-code-simple_background-coding.jpg');
     
+    margin-top: 140px;
+
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    
-    /* Full height */
-    height: 100%; 
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+
   }
