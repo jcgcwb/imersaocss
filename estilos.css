@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://wallup.net/wp-content/uploads/2017/11/22/342160-programming-code-simple_background-coding.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(15, 15, 15);
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia;
+    background-size: auto 100vh;
+    height: 100vh;
+}
+
+.menu {
+    background-color: rgb(97, 10, 0);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    text-align: center;
+    color: rgb(209, 143, 2);
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url('https://wallup.net/wp-content/uploads/2017/11/22/342160-programming-code-simple_background-coding.jpg');
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
